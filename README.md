@@ -1,7 +1,7 @@
 # NimShellcodeFluctuation
 
 Nim Port of the original repo:  https://github.com/mgeeky/ShellcodeFluctuation
-All comments were copy pasted as they were from the original Repository as they really helped me to understand the technique.
+All comments were copy pasted as they were from the original Repository as they really helped me to understand the technique. For more information about the technique itself I highly recommend going through the README of the original Repo!
 
 Install dependencies:
 ```
