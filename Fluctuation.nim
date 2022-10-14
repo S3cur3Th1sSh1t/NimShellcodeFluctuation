@@ -113,12 +113,6 @@ proc MySleep (dwMilliseconds: DWORD): void =
     trampolinesuccess = fastTrampoline(true, cast[LPVOID](sleep_Address), cast[LPVOID](MySleep), nil)
     #echo "Trampoline success\r\n", trampolinesuccess
 
-#proc initializeShellcodeFluctuation(caller: LPVOID): void =
-    #[
-
-        ToDO
-    ]#
-
 
 proc xorFunc*(buf: ptr uint32; bufSize: size_t; xorKey: uint32) =
   var buf32: ptr uint32 = cast[ptr uint32](buf)
